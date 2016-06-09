@@ -1,0 +1,104 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
+	margin-right: 150px;
+    margin-left: 150px;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.top{
+	background-image: url('../images/header_bg.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.top h1{
+	font: 24px 800;
+	color: white;
+	text-align: left;
+}
+
+.top h2{
+	font: 24px 600;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.top a{
+	color: #033048;
+	font: 14px 800;
+	padding: 10px 10px 10px 10px;
+	background-color: #f9e42e;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-decoration: none;
+}
+
+.benefits h1{
+	font: 20px 600;
+	color: #033048;
+}
+
+.benefits p{
+	font: 13px 300;
+	color: #606161;
+}
+
+.benefits ul{
+	font: 13px 300;
+	color: #606161;
+
+}
+
+.quote {
+	background-image: url("testimonial.jpg");
+}
+
+.quote p{
+	font: 18px 300 italic;
+	text-align: center;
+
+}
+
+.quote span{
+	font: 18px 600;
+}
+
+#signup{
+	background-color: #f9e42e;
+}
+
+#signup span{
+	background-color: #033048;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer{
+	background-color: #121212;
+	text-align: center;
+}
+
+footer h1{
+	color: #f9e42e;
+	padding-top: 30px;
+}
+
+footer h2{
+	font-size: 9px;
+	font-weight: 300;
+	color: white;
+}
+
+footer a{
+
+}
