@@ -1,8 +1,7 @@
-body{
-	font-family: 'Open Sans', sans-serif;
+.container{
+	width: ;
+	margin: auto;
 	background-color: #f0efef;
-	margin-right: 150px;
-    margin-left: 150px;
 }
 
 .clearfix:after{
@@ -11,19 +10,35 @@ body{
 	clear: both;
 }
 
-.top{
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
+	margin-right: 150px;
+    margin-left: 150px;
+}
+
+#logo{
+	display: inline-block;
+	text-align: left;
+	color: white;
+	font-size: 24px;
+	font-weight: 800;
+	color: white;
+}
+
+header{
 	background-image: url('../images/header_bg.jpg');
     background-position: top;
     background-repeat: no-repeat;
 }
 
-.top h1{
+.main_container h1{
 	font: 24px 800;
 	color: white;
 	text-align: left;
 }
 
-.top h2{
+.main_container h2{
 	font: 24px 600;
 	color: white;
 	text-align: center;
@@ -31,7 +46,7 @@ body{
 	margin-top: 20px;
 }
 
-.top a{
+.main_container a{
 	color: #033048;
 	font: 14px 800;
 	padding: 10px 10px 10px 10px;
@@ -42,24 +57,24 @@ body{
 	text-decoration: none;
 }
 
-.benefits h1{
+.main_container h1{
 	font: 20px 600;
 	color: #033048;
 }
 
-.benefits p{
+.main_container p{
 	font: 13px 300;
 	color: #606161;
 }
 
-.benefits ul{
+.main_container ul{
 	font: 13px 300;
 	color: #606161;
 
 }
 
 .quote {
-	background-image: url("testimonial.jpg");
+	background-image: url("../images/testimonial.jpg");
 }
 
 .quote p{
@@ -72,15 +87,24 @@ body{
 	font: 18px 600;
 }
 
-#signup{
+.signup{
 	background-color: #f9e42e;
 }
 
-#signup span{
+.signup span{
 	background-color: #033048;
 	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+#footer_logo{
+	display: block;
+	text-align: center;
+	color: #f9e42e;
+	font-size: 24px;
+	font-weight: 800;
+	padding: 20px;
 }
 
 footer{
@@ -93,7 +117,7 @@ footer h1{
 	padding-top: 30px;
 }
 
-footer h2{
+footer h3{
 	font-size: 9px;
 	font-weight: 300;
 	color: white;
